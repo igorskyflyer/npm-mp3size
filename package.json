@@ -1,0 +1,38 @@
+{
+  "name": "mp3size",
+  "version": "1.0.0",
+  "description": "Calculates an estimated file size of Mp3 files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --slow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorskyflyer/npm-mp3size.git"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "mp3",
+    "calculate",
+    "estimation",
+    "audio",
+    "igordvlpr"
+  ],
+  "author": "Igor Dimitrijević",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/igorskyflyer/npm-mp3size/issues"
+  },
+  "homepage": "https://github.com/igorskyflyer/npm-mp3size#readme",
+  "devDependencies": {
+    "mocha": "7.1.2",
+    "prettier": "2.0.5",
+    "chai": "4.2.0"
+  },
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/igor_dvlpr"
+  }
+}
