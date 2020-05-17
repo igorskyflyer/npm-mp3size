@@ -4,7 +4,8 @@
   "description": "Calculates an estimated file size of Mp3 files.",
   "main": "./lib/mp3size.js",
   "scripts": {
-    "test": "mocha --slow 0"
+    "test": "mocha --slow 0",
+    "party": "npm test && npm publish"
   },
   "repository": {
     "type": "git",
