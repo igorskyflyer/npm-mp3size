@@ -1,5 +1,11 @@
 # _mp3size.js_
 
+**1.0.7**
+
+- [dev]: added benchmark tests
+
+<br>
+
 **1.0.6**
 
 - amended version number,
