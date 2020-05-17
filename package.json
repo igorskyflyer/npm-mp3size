@@ -1,6 +1,6 @@
 {
   "name": "mp3size",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Calculates an estimated file size of Mp3 files.",
   "main": "./lib/mp3size.js",
   "scripts": {
