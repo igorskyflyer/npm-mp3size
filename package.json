@@ -1,10 +1,11 @@
 {
   "name": "mp3size",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Calculates an estimated file size of Mp3 files.",
   "main": "./lib/mp3size.js",
   "scripts": {
     "test": "mocha --slow 0",
+    "bench": "node ./benchmark/mp3size.bench.js",
     "party": "npm test && npm publish"
   },
   "repository": {
@@ -30,7 +31,9 @@
   "devDependencies": {
     "mocha": "7.1.2",
     "prettier": "2.0.5",
-    "chai": "4.2.0"
+    "chai": "4.2.0",
+    "benchmark": "2.1.4",
+    "beautify-benchmark": "0.2.4"
   },
   "funding": {
     "type": "patreon",
