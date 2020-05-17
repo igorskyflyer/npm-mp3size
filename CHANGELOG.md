@@ -3,7 +3,8 @@
 **1.0.6**
 
 - amended version number,
-- fixed function signature
+- fixed function signature,
+- [dev]: added NPM scripts to package.json
 
 <br>
 
