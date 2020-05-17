@@ -1,5 +1,11 @@
 # _mp3size_
 
+**1.0.9**
+
+- [dev]: added support for production code
+
+<br>
+
 **1.0.8**
 
 - [dev]: added support for TypeScript
