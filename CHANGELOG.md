@@ -1,4 +1,10 @@
-# _mp3size.js_
+# _mp3size_
+
+**1.0.8**
+
+- [dev]: added support for TypeScript
+
+<br>
 
 **1.0.7**
 

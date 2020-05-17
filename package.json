@@ -1,6 +1,6 @@
 {
   "name": "mp3size",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Calculates an estimated file size of Mp3 files.",
   "main": "./lib/mp3size.js",
   "scripts": {
@@ -14,7 +14,8 @@
     "url": "git+https://github.com/igorskyflyer/npm-mp3size.git"
   },
   "files": [
-    "lib"
+    "lib",
+    "index.d.ts"
   ],
   "keywords": [
     "mp3",
