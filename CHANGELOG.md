@@ -1,5 +1,17 @@
 # _mp3size_
 
+**1.1.1**
+
+- various improvements
+
+<br>
+
+**1.1.0**
+
+- added new functions, getAudioDuration() and getAudioBitrate()
+
+<br>
+
 **1.0.9**
 
 - [dev]: added support for production code
