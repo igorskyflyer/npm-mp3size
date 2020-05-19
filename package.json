@@ -1,28 +1,30 @@
 {
   "name": "mp3size",
-  "version": "1.0.9",
-  "description": "Calculates an estimated file size of Mp3 files.",
+  "version": "1.1.1",
+  "description": "Calculates an estimated file size, audio duration or audio bitrate of MP3 files.",
   "main": "./lib/mp3size.js",
   "scripts": {
     "test": "mocha --slow 0",
     "perf": "node ./benchmark/mp3size.bench.js",
     "party": "npm test && npm publish",
-    "release": "uglifyjs ./lib/mp3size.js --compress --output ./release/mp3size-1.0.9.min.js",
-    "build": "npx tsc && npm run release"
+    "prepublishOnly": "npx tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/igorskyflyer/npm-mp3size.git"
   },
   "files": [
-    "lib",
-    "index.d.ts"
+    "index.d.ts",
+    "lib"
   ],
   "keywords": [
     "mp3",
     "calculate",
     "estimation",
     "audio",
+    "bitrate",
+    "filesize",
+    "music",
     "igordvlpr"
   ],
   "author": "Igor Dimitrijević",
@@ -37,8 +39,7 @@
     "chai": "4.2.0",
     "mocha": "7.1.2",
     "prettier": "2.0.5",
-    "typescript": "^3.9.2",
-    "uglify-es": "3.3.9"
+    "typescript": "^3.9.2"
   },
   "funding": {
     "type": "patreon",
