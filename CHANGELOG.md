@@ -1,6 +1,6 @@
 # _mp3size_
 
-**1.1.3**
+**1.1.4**
 
 - [dev] fixed a vulnerability with lodash,
 - various improvements
@@ -21,19 +21,19 @@
 
 **1.0.9**
 
-- [dev]: added support for production code
+- [dev] added support for production code
 
 <br>
 
 **1.0.8**
 
-- [dev]: added support for TypeScript
+- [dev] added support for TypeScript
 
 <br>
 
 **1.0.7**
 
-- [dev]: added benchmark tests
+- [dev] added benchmark tests
 
 <br>
 
@@ -41,7 +41,7 @@
 
 - amended version number,
 - fixed function signature,
-- [dev]: added NPM scripts to package.json
+- [dev] added NPM scripts to package.json
 
 <br>
 
