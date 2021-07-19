@@ -1,5 +1,9 @@
 # _mp3size_
 
+**1.1.5**
+
+- general fixes
+
 **1.1.4**
 
 - [dev] fixed a vulnerability with lodash,
