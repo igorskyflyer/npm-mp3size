@@ -1,49 +1,46 @@
 {
-  "name": "mp3size",
-  "version": "1.1.4",
-  "description": "Calculates an estimated file size, audio duration or audio bitrate of MP3 files.",
-  "main": "./lib/mp3size.js",
-  "scripts": {
-    "test": "mocha --slow 0",
-    "perf": "node ./benchmark/mp3size.bench.js",
-    "party": "npm test && npm publish",
-    "build": "npx tsc",
-    "prepublishOnly": "npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/igorskyflyer/npm-mp3size.git"
-  },
-  "files": [
-    "index.d.ts",
-    "lib"
-  ],
-  "keywords": [
-    "mp3",
-    "calculate",
-    "estimation",
-    "audio",
-    "bitrate",
-    "filesize",
-    "music",
-    "igordvlpr"
-  ],
-  "author": "Igor Dimitrijević",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/igorskyflyer/npm-mp3size/issues"
-  },
-  "homepage": "https://github.com/igorskyflyer/npm-mp3size#readme",
-  "devDependencies": {
-    "beautify-benchmark": "0.2.4",
-    "benchmark": "2.1.4",
-    "chai": "4.3.4",
-    "mocha": "8.4.0",
-    "prettier": "2.3.0",
-    "typescript": "^4.2.4"
-  },
-  "funding": {
-    "type": "patreon",
-    "url": "https://www.patreon.com/igor_dvlpr"
-  }
+	"name": "mp3size",
+	"version": "1.1.5",
+	"description": "🧮 Calculates an estimated file size of Mp3 files. 🎶",
+	"main": "./lib/mp3size.js",
+	"files": [
+		"lib",
+		"dist"
+	],
+	"types": "./dist/mp3size.d.ts",
+	"scripts": {
+		"test": "mocha --slow 0",
+		"perf": "node ./benchmark/mp3size.bench.js",
+		"pub": "npm test && tsc&& npm publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/igorskyflyer/npm-mp3size.git"
+	},
+	"keywords": [
+		"mp3",
+		"calculate",
+		"estimation",
+		"audio",
+		"bitrate",
+		"filesize",
+		"music",
+		"igordvlpr"
+	],
+	"author": "Igor Dimitrijević",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/igorskyflyer/npm-mp3size/issues"
+	},
+	"homepage": "https://github.com/igorskyflyer/npm-mp3size#readme",
+	"devDependencies": {
+		"beautify-benchmark": "^0.2.4",
+		"benchmark": "^2.1.4",
+		"chai": "^4.3.4",
+		"mocha": "^9.0.2"
+	},
+	"funding": {
+		"type": "patreon",
+		"url": "https://www.patreon.com/igor_dvlpr"
+	}
 }
