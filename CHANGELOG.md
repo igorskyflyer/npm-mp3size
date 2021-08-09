@@ -1,5 +1,9 @@
 # _mp3size_
 
+**1.2.0**
+
+- added ESM support
+
 **1.1.5**
 
 - general fixes
