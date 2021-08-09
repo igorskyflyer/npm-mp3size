@@ -1,4 +1,4 @@
-const mp3 = require('../lib/mp3size')
+const mp3 = require('../src/index.js')
 const chai = require('chai').assert
 
 /** Since MP3 files are loosly compressed files and can have a variable bitrate, a function of allowed value deviation is used.
@@ -38,6 +38,7 @@ describe('getFileSize()', () => {
 
 describe('getAudioBitrate()', () => {
   it('Should return -1', () => {
+    // @ts-ignore
     chai.equal(mp3.getAudioBitrate(''), -1)
   })
 
