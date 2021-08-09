@@ -1,18 +1,24 @@
 {
 	"include": [
-		"./lib/*.js",
+		"src/**/*"
+	],
+	"exclude": [
+		"node_modules/**/*"
 	],
 	"compilerOptions": {
-		"target": "ES5",
+		"module": "ES6",
 		"allowJs": true,
+		"checkJs": false,
 		"declaration": true,
 		"emitDeclarationOnly": true,
-		"outDir": "dist",
-		"alwaysStrict": true,
-		"listEmittedFiles": true,
-		"noUnusedParameters": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"declarationDir": "dist",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"noEmitOnError": true,
+		"strict": true,
 		"noUnusedLocals": true,
-		"strictNullChecks": true,
-		"pretty": true,
+		"noUnusedParameters": true
 	}
 }
