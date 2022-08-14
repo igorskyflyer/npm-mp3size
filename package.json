@@ -1,6 +1,6 @@
 {
 	"name": "mp3size",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "🧮 Calculates an estimated file size of Mp3 files. 🎶",
 	"engines": {
 		"node": ">=12.17"
