@@ -1,31 +1,22 @@
 {
-	"name": "mp3size",
-	"version": "1.2.1",
-	"description": "🧮 Calculates an estimated file size of Mp3 files. 🎶",
-	"engines": {
-		"node": ">=12.17"
-	},
+	"name": "@igor.dvlpr/mp3size",
+	"version": "1.0.0",
+	"description": "🧮 Calculates an estimated file size of Mp3 files. 🎶desc",
 	"sideEffects": false,
-	"main": "./src/index",
-	"exports": {
-		".": {
-			"require": "./src/index.js",
-			"import": "./src/index.mjs"
-		}
+	"engines": {
+		"node": ">=20.0"
 	},
-	"module": "./src/index.mjs",
-	"types": "./dist/index",
+	"types": "./dist/index.d.mts",
+	"main": "./dist/index.mjs",
+	"module": "./dist/index.mjs",
 	"files": [
-		"dist",
-		"src"
+		"dist"
 	],
 	"scripts": {
-		"test": "mocha --slow 0",
-		"pub": "npm test && tsc && npm publish"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/igorskyflyer/npm-mp3size.git"
+		"build": "tsc",
+		"test": "vitest --run",
+		"debug": "vitest",
+		"pub": "npm test && npm run build && npm publish --access public"
 	},
 	"keywords": [
 		"mp3",
@@ -35,23 +26,24 @@
 		"bitrate",
 		"filesize",
 		"music",
+		"igorskyflyer",
 		"igor.dvlpr"
 	],
-	"author": "Igor Dimitrijević",
 	"license": "MIT",
+	"author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
+	"funding": "https://ko-fi.com/igorskyflyer",
+	"homepage": "https://github.com/igorskyflyer/npm-mp3size",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/igorskyflyer/npm-mp3size.git"
+	},
 	"bugs": {
 		"url": "https://github.com/igorskyflyer/npm-mp3size/issues"
 	},
-	"homepage": "https://github.com/igorskyflyer/npm-mp3size#readme",
 	"devDependencies": {
-		"@types/chai": "^4.3.3",
-		"@types/mocha": "^9.1.1",
-		"chai": "^4.3.6",
-		"mocha": "^10.0.0",
-		"typescript": "^4.7.4"
-	},
-	"funding": {
-		"type": "patreon",
-		"url": "https://www.patreon.com/igor_dvlpr"
+		"@biomejs/biome": "^1.8.3",
+		"@types/node": "^20.14.9",
+		"typescript": "^5.5.2",
+		"vitest": "^1.6.0"
 	}
 }
