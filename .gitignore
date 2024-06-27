@@ -1,6 +1,4 @@
-/.vscode/
 /assets/
 /node_modules/
 .npmignore
-index.d.ts
 dist/
