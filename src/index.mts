@@ -92,7 +92,7 @@ function padNumber(value: number): string {
  * @public
  * @param time the duration of the MP3 file
  * @param rate the bitrate of the file, defaults to 160
- * @returns the estimated MP3 file size (in KB) or -1 in case of an error
+ * @returns the estimated MP3 file size (in KiB) or -1 in case of an error
  */
 export function getFileSize(time: string, rate: number = 160): number {
 	const audioDuration: number = getDuration(time)
@@ -107,7 +107,7 @@ export function getFileSize(time: string, rate: number = 160): number {
 /**
  * Gets the estimated audio duration for the provided file size and bitrate.
  * @public
- * @param size file size (in KB)
+ * @param size file size (in KiB)
  * @param rate bitrate (in Kbps)
  * @returns the estimated audio duration formatted as HH:MM:ss or '-1' in case of an error
  */
@@ -134,7 +134,7 @@ export function getAudioDuration(size: number, rate: number): string {
  * Gets the estimated bitrate for the provided audio duration and file size.
  * @public
  * @param time the duration of the audio
- * @param size the size of the audio file (in KB)
+ * @param size the size of the audio file (in KiB)
  * @returns the estimated bitrate or -1 in case of an error
  */
 export function getAudioBitrate(time: string, size: number): number {
