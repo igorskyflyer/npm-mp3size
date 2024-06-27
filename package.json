@@ -1,7 +1,7 @@
 {
 	"name": "@igor.dvlpr/mp3size",
 	"version": "1.0.0",
-	"description": "🧮 Calculates an estimated file size of Mp3 files. 🎶desc",
+	"description": "🧮 Calculates an estimated file size of Mp3 files. 🎶",
 	"sideEffects": false,
 	"engines": {
 		"node": ">=20.0"
