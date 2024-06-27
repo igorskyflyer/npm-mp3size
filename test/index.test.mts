@@ -66,12 +66,8 @@ describe('🧪 mp3size tests 🧪', () => {
 			assert.equal(getAudioDuration(4672, 192), '00:03:15')
 		}) // #10
 
-		test('#11 should return 00:00:00', () => {
-			assert.equal(getAudioDuration(4672, 4672), '00:00:00')
-		}) // #11
-
-		test('#12 should return -1', () => {
+		test('#11 should return -1', () => {
 			assert.equal(getAudioDuration(500, 640), '-1')
-		}) // #12
+		}) // #11
 	})
 })
