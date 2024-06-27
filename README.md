@@ -58,7 +58,7 @@ returns a number, the estimated MP3 file size or -1 in case of an error
 
 > Gets the estimated audio duration for the provided file size and bitrate.
 
-- **size**: _number_, file size (in KB)
+- **size**: _number_, file size (in KiB)
 
 - **rate**: _number_, the bitrate of the file
 
@@ -72,7 +72,7 @@ returns a string, the estimated audio duration formatted as HH:MM:ss or '-1' in 
 
 - **time**: _string_, the duration of the MP3 file, expects either HH:MM:ss or MM:ss format
 
-- **size**: _number_, the size of the audio file (in KB)
+- **size**: _number_, the size of the audio file (in KiB)
 
 returns a number, the estimated bitrate of the MP3 file or -1 in case of an error
 
