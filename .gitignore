@@ -1,4 +1,4 @@
-/assets/
-/node_modules/
-.npmignore
+node_modules/
 dist/
+*.tgz
+*.todo
